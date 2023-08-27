@@ -113,28 +113,28 @@
 
         mac_layer {
             bindings = <
-&trans            &kp Q            &kp W           &kp E          &kp R        &kp T           &kp Y          &kp U         &kp I             &kp O           &kp P  &trans
-&trans  &gqt LEFT_GUI A  &gqt LEFT_ALT S    &gqt LCTRL D  &gqt LSHIFT F        &kp G           &kp H  &gqt RSHIFT J  &gqt RCTRL K  &gqt RIGHT_ALT L  &gqt RGUI SEMI  &trans
-&trans            &kp Z            &kp X           &kp C          &kp V        &kp B           &kp N          &kp M     &kp COMMA           &kp DOT        &kp FSLH  &trans
-                                          &caps_esc_ctrl    &lt 2 SPACE  &lt 3 ENTER    &kp LEFT_WIN    &ltq 3 BSPC       &kp TAB
+&kp LS(ESCAPE)            &kp Q            &kp W         &kp E           &kp R       &kp T        &kp Y      &kp U      &kp I    &kp O          &kp P  &kp BACKSPACE
+      &kp CAPS  &gqt LEFT_GUI A  &gqt LEFT_ALT S  &gqt LCTRL D   &gqt LSHIFT F       &kp G        &kp H      &kp J      &kp K    &kp L  &kp SEMICOLON        &kp SQT
+     &kp LCTRL            &kp Z            &kp X         &kp C           &kp V       &kp B        &kp N      &kp M  &kp COMMA  &kp DOT       &kp FSLH  &kp RIGHT_WIN
+                                                    &kp LSHIFT  &lt 1 LEFT_ALT  &kp DELETE    &kp SPACE  &kp ENTER  &lt 2 TAB
             >;
         };
 
         win_layer {
             bindings = <
-&trans         &kp Q            &kp W            &kp E          &kp R        &kp T           &kp Y          &kp U        &kp I             &kp O            &kp P  &trans
-&trans  &gqt LCTRL A  &gqt LEFT_ALT S  &gqt LEFT_GUI D  &gqt LSHIFT F        &kp G           &kp H  &gqt RSHIFT J  &gqt RGUI K  &gqt RIGHT_ALT L  &gqt RCTRL SEMI  &trans
-&trans         &kp Z            &kp X            &kp C          &kp V        &kp B           &kp N          &kp M    &kp COMMA           &kp DOT         &kp FSLH  &trans
-                                         &tab_esc_ctrl    &lt 2 SPACE  &lt 3 ENTER    &kp LEFT_WIN    &ltq 3 BSPC      &kp TAB
+  &kp ESCAPE   &kp Q      &kp PLUS       &kp MINUS         &kp F11       &kp F12    &kp NUMBER_7          &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0         &kp P  &kp BACKSPACE
+&kp CAPSLOCK  &kp F1        &kp F2          &kp F3          &kp F4        &kp F5    &kp NUMBER_4  &gqt RSHIFT NUMBER_5  &kp NUMBER_6     &kp EQUAL  &kp ASTERISK        &kp SQT
+   &kp LCTRL   &kp Z  &kp C_VOL_DN           &kp C           &kp V  &kp C_VOL_UP    &kp NUMBER_1          &kp NUMBER_2  &kp NUMBER_3       &kp DOT      &kp FSLH  &kp RIGHT_WIN
+                                    &kp LEFT_SHIFT  &lt 2 LEFT_ALT    &kp DELETE       &kp SPACE           &ltq 3 BSPC       &kp TAB
             >;
         };
 
         layer_1 {
             bindings = <
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp NUMBER_0  &trans
-&trans         &none         &none         &none         &none         &none       &kp MINUS     &kp EQUAL     &kp GRAVE     &kp RC(L)        &kp SQT  &trans
-&trans         &none         &none         &none         &none         &none           &none         &none         &none        &trans  &kp RC(SLASH)  &trans
-                                          &trans        &trans        &trans           &mo 4    &kp RSHIFT        &trans
+     &kp ESC     &kp PIPE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NUMBER_4   &kp NUMBER_5         &kp GRAVE           &none    &kp LEFT_BRACE        &kp RIGHT_BRACE   &kp NUMBER_0  &kp BACKSPACE
+&kp CAPSLOCK  &kp AT_SIGN              &kp HASH             &kp DOLLAR         &none  &kp AMPERSAND    &kp UNDERSCORE    &kp C_VOL_DN  &kp LEFT_BRACKET  &kp RC(RIGHT_BRACKET)   &kp C_VOL_UP        &kp SQT
+   &kp LCTRL       &kp F6                &kp F7                 &kp F8        &kp F9        &kp F10          &kp LEFT  &kp DOWN_ARROW      &kp UP_ARROW              &kp RIGHT  &kp RC(SLASH)  &kp RIGHT_WIN
+                                                        &kp LEFT_SHIFT        &trans     &kp DELETE         &kp SPACE       &kp ENTER            &trans
             >;
         };
 
